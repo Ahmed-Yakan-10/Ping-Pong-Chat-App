@@ -47,7 +47,7 @@ class _RegisterViewState extends State<RegisterView> {
                   SizedBox(
                     //color: Colors.white,
                     width: 300,height: 175,
-                    child: Image.asset('assets/chat.png'),
+                    child: Image.asset(kIcon),
                   ),
                   const SizedBox(height: 16,),
                   const Center(
