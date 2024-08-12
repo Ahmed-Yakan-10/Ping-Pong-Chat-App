@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 const kPrimaryColor = Colors.deepPurple;
 
-const kLogo = 'assets/chat.png';
+const kLogo = 'assets/02.png';
 
 const kMessageCollections = 'messages';
 

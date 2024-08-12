@@ -38,7 +38,7 @@ class _RegisterViewState extends State<RegisterView> {
         backgroundColor: kPrimaryColor,
         body: Center(
           child: Padding(
-            padding: const EdgeInsets.all(16),
+            padding: const EdgeInsets.symmetric(horizontal: 16),
             child: Form(
               key: formKey,
               child: ListView(
@@ -46,7 +46,7 @@ class _RegisterViewState extends State<RegisterView> {
                   const SizedBox(height: 50,),
                   SizedBox(
                     //color: Colors.white,
-                    width: 350,height: 200,
+                    width: 300,height: 175,
                     child: Image.asset('assets/chat.png'),
                   ),
                   const SizedBox(height: 16,),
@@ -56,7 +56,7 @@ class _RegisterViewState extends State<RegisterView> {
                       style: TextStyle(
                         fontFamily: kFont,
                         color: Colors.white,
-                        fontWeight: FontWeight.bold,fontSize: 64,
+                        fontWeight: FontWeight.bold,fontSize: 40,
                       ),
                     ),
                   ),
@@ -66,7 +66,7 @@ class _RegisterViewState extends State<RegisterView> {
                     style: TextStyle(
                       fontFamily: kFont,
                       color: Colors.white,
-                      fontWeight: FontWeight.bold,fontSize: 32,
+                      fontWeight: FontWeight.bold,fontSize: 28,
                     ),
                   ),
                   const SizedBox(height: 16,),

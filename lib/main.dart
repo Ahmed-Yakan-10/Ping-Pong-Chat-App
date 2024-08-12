@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:pingpong/constants.dart';
 import 'package:pingpong/firebase_options.dart';
 import 'package:pingpong/views/chat_view.dart';
 import 'package:pingpong/views/login_view.dart';
@@ -25,7 +26,7 @@ class PingPong extends StatelessWidget {
         RegisterView.id: (context) => RegisterView(),
         ChatView.id: (context) => ChatView(),
       },
-      theme: ThemeData.dark(),
+      theme: ThemeData(brightness: Brightness.dark, fontFamily: kFont),
       initialRoute: LoginView.id,
     );
   }
