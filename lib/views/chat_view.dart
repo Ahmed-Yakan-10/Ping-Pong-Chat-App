@@ -40,7 +40,7 @@ class _ChatViewState extends State<ChatView> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Image.asset(
-                      kLogo,
+                      kIcon,
                       height: 50,
                     ),
                     Text(
